@@ -26,9 +26,7 @@
   transform: translate(-50%, -50%) rotate(360deg);
   transition: transform $mainpropertyofcubic-timeduration;
   padding: 40px;
-  overflow: auto;
   max-height: 100vh;
-  // width: 100%;
   border-radius: 4px;
   background: $main-background-color;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -81,12 +79,11 @@
 }
 
 .field {
-  position: relative;
-  display: flex;
-  flex-direction: column;
   margin-bottom: 10px;
-  margin-left: 40px;
-  margin-right: 40px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  position: relative;
 
   &__label {
     font-weight: 400;

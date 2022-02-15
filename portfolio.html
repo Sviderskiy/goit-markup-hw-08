@@ -25,10 +25,12 @@
 
 <header class="header">
   <div class="container header-box">
+    <button type="button" class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu"><svg width="24"
+        height="16">
+        <use href="./images/svg/symbol-defs.svg#icon-menu_24px"></use>
+      </svg></button>
     <a class="logo logo--header" lang="en" href=""><span class="logo__color">Web</span>Studio</a>
-
     <nav class="site-nav">
-
       <ul class="list site-list">
         <li class="list site-list__item">
           <a class="link site-list__nav" href="./index.html">Студия</a>
@@ -56,11 +58,6 @@
     </ul>
   </div>
 
-  <button type="button" class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu"><svg
-      width="24" height="16">
-      <use href="./images/svg/symbol-defs.svg#icon-menu_24px"></use>
-    </svg></button>
-
   <div class="menu-container js-menu-container">
     <div class="mobile-menu">
       <div class="menu-wrap">
@@ -70,9 +67,9 @@
           </svg>
         </button>
         <ul class="list mobile-menu__list">
-          <li class="mobile-menu__item"><a class="link mobile-menu__link mobile-menu__link--current"
+          <li class="mobile-menu__item"><a class="link mobile-menu__link"
               href="./index.html">Студия</a></li>
-          <li class="mobile-menu__item"><a class="link mobile-menu__link" href="./portfolio.html">Портфолио</a></li>
+          <li class="mobile-menu__item"><a class="link mobile-menu__link mobile-menu__link--current" href="#">Портфолио</a></li>
           <li class="mobile-menu__item"><a class="link mobile-menu__link" href="#">Контакты</a></li>
         </ul>
         <div class="menu-bottom">
@@ -99,40 +96,6 @@
       </div>
     </div>
   </div>
-
-
-    <!-- <header class="header">
-      <div class="container header__container">
-        <nav class="site-nav">
-          <a class="logo logo--header" lang="en" href=""><span class="logo__color">Web</span>Studio</a>
-          <ul class="list site-list">
-            <li class="list site-list__item">
-              <a class="link site-list__nav" href="./index.html">Студия</a>
-            </li>
-            <li class="list site-list__item">
-              <a class="link site-list__potfolio" href="#">Портфолио</a>
-            </li>
-            <li class="list site-list__item">
-              <a class="link site-list__nav" href="#">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-        <ul class="list connect">
-          <li class="list connect__item">
-            <a class="link connect__link" href="mailto:info@devstudio.com"><svg class="connect__envelope" width="16"
-                height="12">
-                <use href="./images/svg/symbol-defs.svg#icon-envelope"></use>
-              </svg>info@devstudio.com</a>
-          </li>
-          <li class="list connect__item">
-            <a class="link connect__link" href="tel:+380961111111"><svg class="connect__smartphone" width="10" height="16">
-                <use href="./images/svg/symbol-defs.svg#icon-smartphone"></use>
-              </svg>+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </div>
-    </header> -->
-
    
     <main>
       <section class="filter">

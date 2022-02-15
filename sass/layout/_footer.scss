@@ -1,14 +1,13 @@
 .footer {
   background-color: $accent-background-color;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 60px 0;
   &__container {
     text-align: center;
 
     @media screen and (min-width: 768px) {
       display: flex;
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: space-around;
       text-align: center;
     }
     @media screen and (min-width: 1200px) {
@@ -19,9 +18,6 @@
 .address-container {
   @media screen and (min-width: 768px) {
     width: 50%;
-  }
-  @media screen and (min-width: 768px) {
-    width: 25%;
   }
 }
 

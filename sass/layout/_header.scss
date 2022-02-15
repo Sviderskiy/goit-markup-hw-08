@@ -1,16 +1,22 @@
 .header {
+  box-sizing: border-box;
   border-bottom: 1px solid #ececec;
-  display: block;
-  justify-content: space-between;
 }
+
+// .header-border {
+//   width: 100%;
+
+//   display: flex;
+// }
+
 .header-box {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #ececec;
   @media screen and (min-width: 768px) {
     display: flex;
+    border-bottom: 1px solid #ececec;
   }
 }
 

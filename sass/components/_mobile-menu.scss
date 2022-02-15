@@ -86,13 +86,16 @@
     margin-bottom: 32px;
   }
   &__tel {
-    font-weight: 500;
-    font-size: 34px;
+    font-size: 30px;
     line-height: 1.17647;
     color: $accent-color;
     letter-spacing: 0.02em;
-    text-decoration: none;
+    font-weight: 500;
+    @media screen and (min-width: 319px) {
+      font-size: 34px;
+    }
   }
+
   &__mail {
     font-weight: 500;
     font-size: 24px;

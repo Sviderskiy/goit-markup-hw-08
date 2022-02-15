@@ -1,9 +1,7 @@
 .permanent {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 60px 0;
   @media screen and (min-width: 1200px) {
-    padding-top: 73px;
-    padding-bottom: 94px;
+    padding-top: 94px 0;
   }
 
   &__title {
@@ -13,11 +11,6 @@
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-  }
-  @media screen and (min-width: 1200px) {
-    font-size: 36px;
-    line-height: 1.16667;
-    margin-bottom: 50px;
   }
 }
 
